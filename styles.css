@@ -410,6 +410,12 @@ h2 .dim {
   cursor: default;
 }
 
+.sub:nth-child(1),
+.sub:nth-child(2),
+.sub:nth-child(3) {
+  border-top: 1px solid var(--border);
+}
+
 .sub:hover {
   color: var(--accent);
   background: rgba(180, 255, 78, .05);
@@ -563,7 +569,7 @@ h2 .dim {
 
 .cta h2 {
   font-size: clamp(2.5rem, 7vw, 4.75rem);
-  line-height: .92;
+  line-height: 1.1;
   margin: 0 0 36px;
 }
 

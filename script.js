@@ -11,8 +11,8 @@ setTimeout(() => {
 const CH = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 const ws = [
   { el: document.getElementById('w1'), t: 'DIGITAL', s: 0 },
-  { el: document.getElementById('w2'), t: 'MEDIA',   s: .25 },
-  { el: document.getElementById('w3'), t: 'DESIGN',  s: .5 },
+  { el: document.getElementById('w2'), t: 'MEDIA', s: .25 },
+  { el: document.getElementById('w3'), t: 'DESIGN', s: .5 },
 ];
 let i = 0;
 const timer = setInterval(() => {
